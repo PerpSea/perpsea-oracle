@@ -1,0 +1,11 @@
+[package]
+name = "PerpSea"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "devnet-0.29.0" }
+
+[addresses]
+std = "0x1"
+sui =  "0x2"
+perpsea = "0x0"
